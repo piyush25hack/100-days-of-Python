@@ -26,8 +26,6 @@ print("Welcome to the Number Guessing Game!")
 def game():
     print("I'm thinking of a number between 1 and 100.")
     answer = randint(1, 100)
-    # print(f"The Correct answer is {answer}")  # Testing ke liye comment karo
-    
     Turns = difficulty()
     
     user = 0
