@@ -6,9 +6,8 @@ money_machine = MoneyMachine()
 
 coffee_maker = CoffeeMaker()
 coffee_maker.report()
-
 money_machine.report()
-
+# Menu to add the while the machine is turning on or off in this we are importing the classes and objects
 menu = Menu()
 is_on = True
 
