@@ -31,6 +31,4 @@ while race_on:
         random_distance = random.randint(0,10)
         tim.forward(random_distance)
 
-
-
 screen.exitonclick()
