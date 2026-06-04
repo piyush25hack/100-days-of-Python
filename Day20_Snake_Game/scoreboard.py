@@ -6,9 +6,9 @@ class Scoreboard(Turtle):
         self.color("white")
         self.penup()
         self.hideturtle()
-        self.score = 0 # शुरुआत 0 से
+        self.score = 0 
         self.goto(0, 270)
-        self.write_score() # शुरुआती स्कोर लिखने के लिए
+        self.write_score() 
         
     def write_score(self):
        
