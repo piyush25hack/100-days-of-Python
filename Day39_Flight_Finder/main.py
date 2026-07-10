@@ -1,6 +1,6 @@
 from data_manager import DataManager
 from flight_search import FlightSearch
-from notification_manager import NotificationManager
+from notification_manager import NotificationManager # type: ignore
 import os
 from dotenv import load_dotenv
 
