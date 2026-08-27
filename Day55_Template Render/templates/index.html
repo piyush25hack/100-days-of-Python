@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Name Card</title>
+    <!-- static folder se CSS link karo -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="card">
+        <div class="avatar">
+            <!-- static folder se image load karo -->
+            <img src="{{ url_for('static', filename='https://png.pngtree.com/background/20250106/original/pngtree-a-hackers-use-computer-picture-image_15824759.jpg') }}" alt="Profile Photo">
+        </div>
+        <div class="info">
+            <h1>Hacker</h1>
+            <p>Cybersecurity Enthusiast | Python Developer</p>
+            <p>📍 Mumbai, India</p>
+            <div class="social-links">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>s
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </div>
+    <!-- static folder se JS load karo -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

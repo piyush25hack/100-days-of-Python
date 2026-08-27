@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # Generate a random number between 0 and 9
 random_number = random.randint(0, 9)
-print(f"Debug: Random number is {random_number}")  # Console mein dikhega
+print(f"Debug: Random number is {random_number}")  
 
 @app.route('/')
 def home():

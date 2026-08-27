@@ -1,5 +1,5 @@
 from flask import Flask
-import requests  # ✅ 'import requests' sahi hai, 'import request' galat hai
+import requests  
 
 app = Flask(__name__)
 
